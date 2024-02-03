@@ -93,7 +93,8 @@ function showProduct (){
    }
    console.log(thisProduct[0])
    let {id,logo,title,type,image,about,AboutDescription,location,secAbout,duscSecAbout ,DURATION,TECHNOLOGIES,
-    screenshot,Challenges,ChallengesDusk,Appfunctionality,UserRegistration,UserRegistrationText,Dashboardmanagement,DashboardmanagementText,notification,Notificationstext,Userprofiles,solution,projectRes}=thisProduct[0]
+    screenshot,Challenges,ChallengesDusk,Appfunctionality,UserRegistration,UserRegistrationText,
+    Dashboardmanagement,DashboardmanagementText,notification,Notificationstext,solutionPro,Userprofiles,solution,Projectresults,projectRes}=thisProduct[0]
    
 case_page.innerHTML=`
 <div class="font-hanken content max-w-[860px] mx-auto">
@@ -132,36 +133,39 @@ case_page.innerHTML=`
     <p>${ChallengesDusk}</p>
     <h2>${Appfunctionality}</h2>
     <br>
-    <br>
-    <br>
+    
+  
     <h6>${UserRegistration}</h6>
     <br>
-    <br>
+  
     <h6>${UserRegistrationText}</h6>
     <br>
-    <br>
+    
     <h6>${Dashboardmanagement}</h6>
     <br>
-    <br>
+  
     <h6>${DashboardmanagementText}</h6>
     <br>
-    <br>
+   
     <h6>${notification}</h6>
     <br>
-    <br>
+    
     <h6>${Notificationstext}</h6>
     <br>
+   
+    <h6>${Userprofiles}</h6>
     <br>
+   
+    <h2>${solutionPro}</h2>
     <br>
-    <h2>Solution</h2>
-    <br>
-    <br>
+   
     <p>${solution}</p>
-    <h2>Project results</h2>
+    <h2>${Projectresults}</h2>
     <p>${projectRes}</p>
+    <br>
     <p>By using <a href="https://www.alchemy.com/">Alchemy</a>, we were able to query NFT data, make faster transactions and deliver a wallet experience to the end users.<br/><br/> Now, fans can purchase tickets, have a token-gated access
         to the event, and use the NFT to have access to communities and special experiences before, during and after the event.</p>
-    <h2>Working with Justbuild</h2>
+    <h2>Working with Threed</h2>
     <p>
         <blockquote class="italic">&quot;We launched a revamped version of our platform in <span class="highlight-text">less than a month</span>. From design to implementation, this team has done an incredible job with us.&quot; - Leandro Pontes • CEO</blockquote>
     </p>

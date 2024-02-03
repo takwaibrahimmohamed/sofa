@@ -405,10 +405,17 @@ li:hover {
     width: 100%
 }
 
+@media (max-width:640px) {
+    .logoText{
+        left: 58% !important;
+    }
+  
+}
 @media (min-width:640px) {
     .container {
         max-width: 640px
     }
+  
 }
 
 @media (min-width:768px) {
